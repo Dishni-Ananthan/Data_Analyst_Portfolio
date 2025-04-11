@@ -6,18 +6,7 @@ I’m passionate about predictive modelling, exploratory data analysis, and brid
 
 ---
 
-## 📚 Table of Contents
-
-- [🧠 Machine Learning Projects](#🧠-machine-learning-projects)
-- [🐍 Python Projects](#🐍-python-projects)
-- [📊 Power BI Dashboards](#📊-power-bi-dashboards)
-- [🛠️ Tools & Technologies](#🛠️-tools--technologies)
-- [📈 GitHub Stats](#📈-github-stats)
-- [📬 Let's Connect](#📬-lets-connect)
-
----
 ## 🧠 Machine Learning Projects
-
 I specialize in building models for classification, regression, and forecasting tasks. Here are a few of my ML projects:
 
 ### 🔬 [Wine Quality Prediction](https://github.com/yourusername/wine-quality-prediction)
@@ -47,7 +36,19 @@ I specialize in building models for classification, regression, and forecasting 
 - **Problem**: Predict if a customer will respond to a marketing campaign.
 - **Model**: Decision Tree Classifier
 - **Highlights**: EDA, visualized decision tree, model interpretation.
+---
 
+## 📊 Power BI Projects
+
+I turn business data into beautiful and insightful dashboards using Power BI. These dashboards enable data-driven decision-making and performance analysis.
+
+### 🚚 [Supply Chain Analysis Dashboard](https://github.com/yourusername/powerbi-supplychain-analysis)
+- Visualizes supplier performance, delivery times, and order costs.
+- Insights into supply chain bottlenecks and cost optimizations.
+
+### 🛍️ [Superstore Sales Dashboard](https://github.com/yourusername/powerbi-superstore-analysis)
+- Built on the Superstore dataset to analyze sales and profitability across segments, categories, and regions.
+- Includes KPIs, slicers, and actionable visuals.
 ---
 
 ## 🐍 Python Projects
@@ -69,21 +70,6 @@ I love automating tasks, solving algorithmic challenges, and building mini-apps.
 ### ✊ [Rock Paper Scissors Game](https://github.com/yourusername/rock-paper-scissors)
 - Command-line implementation of Rock Paper Scissors.
 - Includes logic for game loop, user vs computer, and score tracking.
-
----
-
-## 📊 Power BI Projects
-
-I turn business data into beautiful and insightful dashboards using Power BI. These dashboards enable data-driven decision-making and performance analysis.
-
-### 🚚 [Supply Chain Analysis Dashboard](https://github.com/yourusername/powerbi-supplychain-analysis)
-- Visualizes supplier performance, delivery times, and order costs.
-- Insights into supply chain bottlenecks and cost optimizations.
-
-### 🛍️ [Superstore Sales Dashboard](https://github.com/yourusername/powerbi-superstore-analysis)
-- Built on the Superstore dataset to analyze sales and profitability across segments, categories, and regions.
-- Includes KPIs, slicers, and actionable visuals.
-
 ---
 
 ## 🛠️ Tools & Technologies
@@ -91,3 +77,17 @@ I turn business data into beautiful and insightful dashboards using Power BI. Th
 | Machine Learning | Python | Data Visualization | Others |
 |------------------|--------|---------------------|--------|
 | Scikit-learn, pandas, NumPy | Jupyter Notebook, VS Code | Power BI, Matplotlib, Seaborn | Git, Excel, BeautifulSoup |
+
+---
+
+## 📬 Let’s Connect
+
+- 💼 [LinkedIn](www.linkedin.com/in/dishni-ananthan-36aba162)
+- ✉️ dishni90@gmail.com
+
+---
+
+> *“Without data, you're just another person with an opinion.” – W. Edwards Deming*
+
+Thanks for visiting! Feel free to explore, fork, or star any project that interests you 🌟
+
