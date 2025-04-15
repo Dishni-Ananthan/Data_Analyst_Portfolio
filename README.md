@@ -14,12 +14,47 @@ I specialize in building models for classification, regression, and forecasting 
 - **Tech Stack**: Scikit-learn, Pandas, Matplotlib
 - **Model**: SVC, Random Forest
 - **Highlights**: Model tuning
+- ---
+# Tesla Stock Price Prediction 📈
+## 🔍 Project Overview
 
-### 📉 [Stock Price Prediction](https://github.com/yourusername/stock-price-prediction)
-- **Problem**: Predict future stock prices using historical data.
-- **Tech Stack**: Python, Pandas, scikit-learn, matplotlib
-- **Model**: XGBRegressor,
-- **Highlights**: Time series analysis, visual insights, MAE/RMSE comparison.
+### 🧩 Problem Statement
+The aim is to forecast Tesla’s closing stock prices using historical market data. Stock prices are sequential in nature, and understanding past trends is critical for accurate prediction. This project explores and compares two models:
+- **XGBoost Regressor**: A non-sequential gradient boosting model
+- **LSTM Neural Network**: A deep learning model built to handle time series
+
+### 🛠️ Tech Stack
+- **Python** for development
+- **Pandas**, **NumPy** for data manipulation
+- **Matplotlib**, **Plotly** for data visualization
+- **Scikit-learn** for preprocessing and evaluation
+- **XGBoost** for classical machine learning
+- **TensorFlow / Keras** for deep learning (LSTM)
+
+### 🤖 Models Used
+
+#### 🔸 XGBoost Regressor
+- Uses only the **closing price** as input
+- Treats each record as an independent observation
+- Fast to train and easy to interpret
+- Fails to account for time-based dependencies
+- ➡️ Result: **Higher RMSE**, unstable predictions
+
+#### 🔹 LSTM Neural Network
+- Uses **multiple features**: `open`, `high`, `low`, `close`, and `volume`
+- Considers the past **60 days** of data to predict the next day
+- Designed for **sequential, time series data**
+- Captures historical trends and seasonality
+- ➡️ Result: **Lower RMSE**, more accurate and smooth predictions
+
+### ✨ Key Highlights
+- Demonstrates the difference between **tabular modeling vs. time series modeling**
+- Shows how LSTM leverages sequential data to outperform traditional models
+- Uses real Tesla stock data and performs **feature scaling**, **model evaluation**, and **forecast visualization**
+- A strong portfolio example of combining **classical ML and deep learning** for financial forecasting
+
+---
+
 
 ### 🧬 [Cancer Prediction](https://github.com/yourusername/cancer-prediction)
 - **Problem**: Predict whether a tumor is benign or malignant.
