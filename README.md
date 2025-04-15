@@ -9,19 +9,42 @@ I’m passionate about predictive modelling, exploratory data analysis, and brid
 ## 🧠 Machine Learning Projects
 I specialize in building models for classification, regression, and forecasting tasks. Here are a few of my ML projects:
 
-### 🔬 [Wine Quality Prediction](https://github.com/yourusername/wine-quality-prediction)
-- **Problem**: Classify the quality of wine based on physicochemical properties.
-- **Tech Stack**: Scikit-learn, Pandas, Matplotlib
-- **Model**: SVC, Random Forest
-- **Highlights**: Model tuning
+# 🔬 [Wine Quality Prediction](https://github.com/yourusername/wine-quality-prediction)
+## 🔍 Project Overview
+
+### 🧩 Problem Statement
+This project focuses on predicting the quality of wine using machine learning classification models. Based on physicochemical properties of red wine samples, the goal is to classify the wine as good or bad quality. 
+
+### 🛠️ Tech Stack
+- **Python** for development
+- **Pandas**, **NumPy** for data manipulation
+- **Matplotlib**, **Plotly** for data visualization
+- **Scikit-learn** for preprocessing and evaluation
+
+### 🤖 Models Used
+#### 🔸 Random Forest Classifier
+#### 🔸 SVC with GridSearchCV for hyperparameter tuning and optimization
+
+### ✨ Key Highlights
+- Data preprocessing included encoding categorical labels and scaling features.
+- Quality labels were binarized into good and bad using custom thresholds.
+- Feature importance and correlation heatmaps were generated for deeper insights.
+- Hyperparameter tuning was applied to SVC using GridSearchCV to improve accuracy.
+- Cross-validation used for model performance validation.
+- Visualizations included barplots, confusion matrices, and performance metrics.
+
+### 🔍 Insights
+- Random Forest achieved a cross-validation accuracy of 91.17%
+- Tuned SVC achieved a close 90.85% accuracy
+- Both models performed competitively, with Random Forest slightly ahead.
+- Features such as alcohol, volatile acidity, and sulphates had a notable influence on wine quality prediction.
+  
 - ---
 # Tesla Stock Price Prediction 📈
 ## 🔍 Project Overview
 
 ### 🧩 Problem Statement
-The aim is to forecast Tesla’s closing stock prices using historical market data. Stock prices are sequential in nature, and understanding past trends is critical for accurate prediction. This project explores and compares two models:
-- **XGBoost Regressor**: A non-sequential gradient boosting model
-- **LSTM Neural Network**: A deep learning model built to handle time series
+The aim is to forecast Tesla’s closing stock prices using historical market data. Stock prices are sequential in nature, and understanding past trends is critical for accurate prediction. 
 
 ### 🛠️ Tech Stack
 - **Python** for development
