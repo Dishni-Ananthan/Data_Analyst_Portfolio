@@ -76,7 +76,7 @@ The aim is to forecast Tesla’s closing stock prices using historical market da
 
 ---
 
-# 🧬 [Cancer Prediction](https://github.com/yourusername/cancer-prediction)
+# 🧬 [Cancer Prediction](Cancer_prediction.ipynb)
 ## 🔍 Project Overview
 
 ### 🧩 Problem Statement
