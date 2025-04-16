@@ -178,7 +178,7 @@ I turn business data into beautiful and insightful dashboards using Power BI. Th
 - Visualizes supplier performance, delivery times, and order costs.
 - Insights into supply chain bottlenecks and cost optimizations.
 
-### 🛍️ [Superstore Sales Dashboard](images/SuperStore Sales Report.png)
+### 🛍️ [Superstore Sales Dashboard](images/Supply_chain_Dashboard.png)
 - Built on the Superstore dataset to analyze sales and profitability across segments, categories, and regions.
 - Includes KPIs, slicers, and actionable visuals.
 ---
