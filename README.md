@@ -84,11 +84,13 @@ The aim is to forecast Tesla’s closing stock prices using historical market da
 
 ### 🧩 Problem Statement
 This project involves building a machine learning model to classify tumors as **benign** or **malignant** based on various medical attributes. The goal is to aid in early detection and diagnosis of breast cancer using interpretable models like Decision Trees.
+
 ## 🛠️ Tech Stack
 - **Language**: Python  
 - **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn  
 - **Modeling**: DecisionTreeClassifier  
 - **Evaluation**: Cross-validation, accuracy score, visual plots
+  
 ## 🧪 Models Used
 #### 🔸 Decision Tree Classifier
   A rule-based, tree-structured model that splits the data on feature thresholds. Offers transparency and interpretability—critical in healthcare domains.
@@ -110,10 +112,36 @@ This project involves building a machine learning model to classify tumors as **
 
 ---
 
-### ☁️ [Weather Prediction](https://github.com/yourusername/weather-prediction)
-- **Problem**: Forecast weather (temperature, rainfall, etc.)
-- **Model**: Regression trees and Random Forest Regressors
-- **Highlights**: Real-world dataset and exploratory data analysis.
+# ☁️ [Weather Prediction](https://github.com/yourusername/weather-prediction)
+## 🔍 Project Overview
+
+### 🧩 Problem Statement
+This project uses historical weather data to predict future weather conditions (e.g., sun, rain, fog) using the XGBoost classification algorithm. It involves preprocessing, normalization, label encoding, hyperparameter tuning, and visual performance evaluation.
+
+### 🛠️ Tech Stack
+- **Python** for development
+- **Pandas** for data manipulation
+- **Matplotlib**, **Seaborn** for data visualization
+- **Scikit-learn** for preprocessing and evaluation
+
+### 🤖 Models Used
+#### 🔸 XGBoost Classifier
+
+## 🌟 Key Highlights
+- Used Seattle weather data, including features like precipitation, temp_max, temp_min, and wind.
+- Normalized continuous variables to ensure even scaling across all features.
+- Encoded categorical weather labels (sun, rain, fog, drizzle, snow) using LabelEncoder.
+- Performed hyperparameter tuning with GridSearchCV to find optimal learning_rate and gamma.
+- Visualized actual vs predicted classes using original labels for better interpretability.
+
+## 🔍 Insights
+- Balanced Predictions for Major Classes:
+    The model performs well on classes like rain and snow, with predicted counts closely matching actual values.
+- Underprediction of Rare Classes:
+    Fogs are consistently underpredicted.
+    This suggests the model may struggle to detect fogs accurately, potentially due to overlapping patterns in temperature or precipitation with other classes.
+- Overprediction of Certain Conditions:
+    There may be slight overprediction for sun
 
 ### 📊 [Market Campaign Analysis](https://github.com/yourusername/marketing-analysis-decision-tree)
 - **Problem**: Predict if a customer will respond to a marketing campaign.
