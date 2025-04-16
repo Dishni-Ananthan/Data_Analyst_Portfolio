@@ -40,7 +40,7 @@ This project focuses on predicting the quality of wine using machine learning cl
 - Features such as alcohol, volatile acidity, and sulphates had a notable influence on wine quality prediction.
   
 - ---
-# Tesla Stock Price Prediction 📈
+# 📈 [Tesla Stock Price Prediction](Stock_price_prediction_XGB.ipynb) 
 ## 🔍 Project Overview
 
 ### 🧩 Problem Statement
