@@ -79,11 +79,36 @@ The aim is to forecast Tesla’s closing stock prices using historical market da
 ---
 
 
-### 🧬 [Cancer Prediction](https://github.com/yourusername/cancer-prediction)
-- **Problem**: Predict whether a tumor is benign or malignant.
-- **Dataset**: Breast Cancer Wisconsin Dataset
-- **Model**: KNN, SVM, Random Forest
-- **Highlights**: Accuracy over 95%, cross-validation.
+# 🧬 [Cancer Prediction](https://github.com/yourusername/cancer-prediction)
+## 🔍 Project Overview
+
+### 🧩 Problem Statement
+This project involves building a machine learning model to classify tumors as **benign** or **malignant** based on various medical attributes. The goal is to aid in early detection and diagnosis of breast cancer using interpretable models like Decision Trees.
+## 🛠️ Tech Stack
+- **Language**: Python  
+- **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn  
+- **Modeling**: DecisionTreeClassifier  
+- **Evaluation**: Cross-validation, accuracy score, visual plots
+## 🧪 Models Used
+#### 🔸 Decision Tree Classifier
+  A rule-based, tree-structured model that splits the data on feature thresholds. Offers transparency and interpretability—critical in healthcare domains.
+  
+#### 🔸Cross-Validation
+  Used to evaluate model generalization across different depths of the tree. Helps in choosing the optimal complexity and avoiding overfitting.
+
+## 🌟 Key Highlights
+- Performed EDA with visualizations for class balance and feature importance.
+- Used label encoding to convert categorical diagnosis ('M', 'B') to numerical.
+- Removed irrelevant columns like `id` for cleaner data.
+- Trained Decision Trees with different depths and used 10-fold cross-validation to assess model stability.
+- Plotted training vs. validation accuracy to visualize the effect of depth.
+
+## 🔍 Insights
+- The model performs well on distinguishing benign from malignant tumors.
+- **Depth tuning** is critical: shallow trees underfit, deep trees overfit.
+- Key predictors included: `radius_mean`, `concavity_mean`, and `texture_mean`.
+
+---
 
 ### ☁️ [Weather Prediction](https://github.com/yourusername/weather-prediction)
 - **Problem**: Forecast weather (temperature, rainfall, etc.)
@@ -107,35 +132,6 @@ I turn business data into beautiful and insightful dashboards using Power BI. Th
 ### 🛍️ [Superstore Sales Dashboard](https://github.com/yourusername/powerbi-superstore-analysis)
 - Built on the Superstore dataset to analyze sales and profitability across segments, categories, and regions.
 - Includes KPIs, slicers, and actionable visuals.
----
-
-## 🐍 Python Projects
-
-I love automating tasks, solving algorithmic challenges, and building mini-apps. Here are some fun and functional Python scripts:
-
-### 🌐 [Web Scraping: Wikipedia – Top Companies by Revenue](https://github.com/yourusername/webscraping-wikipedia-revenue)
-- Scrapes Wikipedia to extract data of Fortune 500 companies by revenue.
-- Uses `BeautifulSoup` and `pandas` for data extraction and formatting.
-
-### 🔍 [Binary Search Implementation](https://github.com/yourusername/binary-search)
-- A clean, efficient implementation of the classic binary search algorithm.
-- Includes test cases and step-by-step logic explanation.
-
-### ♈ [Zodiac Sign Calculator](https://github.com/yourusername/zodiac-sign-finder)
-- Enter your birthdate and get your zodiac sign!
-- Fun utility project using Python’s `datetime` module.
-
-### ✊ [Rock Paper Scissors Game](https://github.com/yourusername/rock-paper-scissors)
-- Command-line implementation of Rock Paper Scissors.
-- Includes logic for game loop, user vs computer, and score tracking.
----
-
-## 🛠️ Tools & Technologies
-
-| Machine Learning | Python | Data Visualization | Others |
-|------------------|--------|---------------------|--------|
-| Scikit-learn, pandas, NumPy | Jupyter Notebook, VS Code | Power BI, Matplotlib, Seaborn | Git, Excel, BeautifulSoup |
-
 ---
 
 ## 📬 Let’s Connect
