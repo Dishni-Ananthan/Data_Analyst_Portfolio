@@ -174,7 +174,7 @@ This project involves building a machine learning model to classify tumors as **
 
 I turn business data into beautiful and insightful dashboards using Power BI. These dashboards enable data-driven decision-making and performance analysis.
 
-### 🚚 [Supply Chain Analysis Dashboard](https://github.com/yourusername/powerbi-supplychain-analysis)
+### 🚚 [Supply Chain Analysis Dashboard](images/Supply_chain_Dashboard.png)
 - Visualizes supplier performance, delivery times, and order costs.
 - Insights into supply chain bottlenecks and cost optimizations.
 
