@@ -109,7 +109,7 @@ This project involves building a machine learning model to classify tumors as **
 
 ---
 
-# ☁️ [Weather Prediction](https://github.com/Dishni-Ananthan/Data_Analyst_Portfolio/blob/main/Weather_Prediction.ipynb)
+# ☁️ [Weather Prediction](Weather_Prediction.ipynb)
 ## 🔍 Project Overview
 
 ### 🧩 Problem Statement
