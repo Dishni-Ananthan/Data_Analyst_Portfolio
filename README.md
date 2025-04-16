@@ -51,8 +51,6 @@ The aim is to forecast Tesla’s closing stock prices using historical market da
 - **Pandas**, **NumPy** for data manipulation
 - **Matplotlib**, **Plotly** for data visualization
 - **Scikit-learn** for preprocessing and evaluation
-- **XGBoost** for classical machine learning
-- **TensorFlow / Keras** for deep learning (LSTM)
 
 ### 🤖 Models Used
 
@@ -78,7 +76,6 @@ The aim is to forecast Tesla’s closing stock prices using historical market da
 
 ---
 
-
 # 🧬 [Cancer Prediction](https://github.com/yourusername/cancer-prediction)
 ## 🔍 Project Overview
 
@@ -90,8 +87,7 @@ This project involves building a machine learning model to classify tumors as **
 - **Pandas**, **NumPy** for data manipulation
 - **Matplotlib**, **Seaborn** for data visualization
 - **Scikit-learn** for preprocessing and evaluation
-- **Decision Tree Classifier**,**Cross-Validation** for interpretable, classical machine learning model
--   
+
 ## 🧪 Models Used
 #### 🔸 Decision Tree Classifier
   A rule-based, tree-structured model that splits the data on feature thresholds. Offers transparency and interpretability—critical in healthcare domains.
@@ -124,7 +120,6 @@ This project uses historical weather data to predict future weather conditions (
 - **Pandas** for data manipulation
 - **Matplotlib**, **Seaborn** for data visualization
 - **Scikit-learn** for preprocessing and evaluation
-- **XGBoost** for classical machine learning
 
 ### 🤖 Models Used
 #### 🔸 XGBoost Classifier
@@ -146,9 +141,33 @@ This project uses historical weather data to predict future weather conditions (
     There may be slight overprediction for sun
 
 ### 📊 [Market Campaign Analysis](https://github.com/yourusername/marketing-analysis-decision-tree)
-- **Problem**: Predict if a customer will respond to a marketing campaign.
-- **Model**: Decision Tree Classifier
-- **Highlights**: EDA, visualized decision tree, model interpretation.
+## 🔍 Project Overview
+
+### 🧩 Problem Statement
+This project involves building a machine learning model to classify tumors as **benign** or **malignant** based on various medical attributes. The goal is to aid in early detection and diagnosis of breast cancer using interpretable models like Decision Trees.
+
+## 🛠️ Tech Stack
+- **Python** for development
+- **Pandas**, **NumPy** for data manipulation
+- **Matplotlib**, **Seaborn** for data visualization
+- **Scikit-learn** for preprocessing and evaluation
+  
+## 🧪 Models Used
+#### 🔸 Decision Tree Classifier
+  A rule-based, tree-structured model that splits the data on feature thresholds. Offers transparency and interpretability—critical in healthcare domains.
+
+## 🌟 Key Highlights
+- Created a custom feature balance_class to group customers into meaningful financial segments.
+- Applied stratified sampling to preserve class balance during model training.
+- Used GridSearchCV to find optimal parameters for Decision Tree performance.
+- Visualized the final decision tree to understand customer segmentation logic.
+
+## 🔍 Insights
+- Customers with higher balances (Class A & B) are more likely to respond positively.
+- A large portion of negative responses comes from Class D and E (lower balance clients).
+- Housing and loan status play a notable role in campaign outcomes.
+- Decision Trees offer interpretability, making them suitable for financial marketing use cases.
+
 ---
 
 ## 📊 Power BI Projects
