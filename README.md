@@ -18,7 +18,7 @@ This project focuses on predicting the quality of wine using machine learning cl
 ### 🛠️ Tech Stack
 - **Python** for development
 - **Pandas**, **NumPy** for data manipulation
-- **Matplotlib**, **Plotly** for data visualization
+- **Matplotlib**, **Seaborn** for data visualization
 - **Scikit-learn** for preprocessing and evaluation
 
 ### 🤖 Models Used
@@ -86,11 +86,12 @@ The aim is to forecast Tesla’s closing stock prices using historical market da
 This project involves building a machine learning model to classify tumors as **benign** or **malignant** based on various medical attributes. The goal is to aid in early detection and diagnosis of breast cancer using interpretable models like Decision Trees.
 
 ## 🛠️ Tech Stack
-- **Language**: Python  
-- **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn  
-- **Modeling**: DecisionTreeClassifier  
-- **Evaluation**: Cross-validation, accuracy score, visual plots
-  
+- **Python** for development
+- **Pandas**, **NumPy** for data manipulation
+- **Matplotlib**, **Seaborn** for data visualization
+- **Scikit-learn** for preprocessing and evaluation
+- **Decision Tree Classifier**,**Cross-Validation** for interpretable, classical machine learning model
+-   
 ## 🧪 Models Used
 #### 🔸 Decision Tree Classifier
   A rule-based, tree-structured model that splits the data on feature thresholds. Offers transparency and interpretability—critical in healthcare domains.
@@ -123,6 +124,7 @@ This project uses historical weather data to predict future weather conditions (
 - **Pandas** for data manipulation
 - **Matplotlib**, **Seaborn** for data visualization
 - **Scikit-learn** for preprocessing and evaluation
+- **XGBoost** for classical machine learning
 
 ### 🤖 Models Used
 #### 🔸 XGBoost Classifier
