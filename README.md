@@ -183,7 +183,7 @@ I turn business data into beautiful and insightful dashboards using Power BI. Th
 - Includes KPIs, slicers, and actionable visuals.
 ---
 
-### 🛒 [Offline_vs_Online_Sales_Dashboard]()
+### 🛒 [Offline_vs_Online_Sales_Dashboard](images/Offline_VS_Online_Sales.png)
 - This Power BI report provides a side-by-side analysis of Offline and Online sales channels, helping businesses understand revenue patterns, customer behavior, and product performance across both mediums. It's designed to uncover opportunities for growth and optimization in multichannel sales environments.
 - 
 ---------------
