@@ -9,7 +9,7 @@ I’m passionate about predictive modelling, exploratory data analysis, and brid
 ## 🧠 Machine Learning Projects
 I specialize in building models for classification, regression, and forecasting tasks. Here are a few of my ML projects:
 
-# 🔬 [Wine Quality Prediction](https://github.com/yourusername/wine-quality-prediction)
+# 🔬 [Wine Quality Prediction](https://github.com/Dishni-Ananthan/Data_Analyst_Portfolio/blob/main/Wine_Quality_Prediction.ipynb)
 ## 🔍 Project Overview
 
 ### 🧩 Problem Statement
